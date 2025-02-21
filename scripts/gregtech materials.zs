@@ -595,7 +595,35 @@ util.registerDust("magnesium_silicate", 32271, 0xa46681, "DULL");
 util.registerDust("cobalt_manganese_oxide", 32272, 0x64a47a, "SHINY");
 util.registerDust("niobium_oxide", 32273, 0xA483AA, "SHINY");
 util.registerDust("cadmium_magnesium_tellurium", 32274, 0x529CC3, "SHINY");
-
+util.registerDust("regolith_lunar", 32275, 0xddd4af, "DULL");
+util.registerDust("impure_he3", 32276, 0xa9a9a9, "SHINY");
+util.registerDust("dense_perovskite_clusters", 32277, 0x5f6a6a, "SHINY");
+util.registerDust("regolith_martian", 32278, 0x8b4513, "DULL");
+util.registerDust("sulfuric_mineral", 32279, 0xa4a417, "DULL");
+util.registerDust("catherdral_pyrite", 32280, 0xffd700, "SHINY");
+util.registerDust("amorphous_ice_powder", 32281, 0xd3d3d3, "SHINY");
+util.registerDust("saturn_ring_fragment", 32282, 0xd2b48c, "SHINY");
+util.registerDust("carbon_rich_clay_powder", 32283, 0x333333, "DULL");
+util.registerDust("raw_buckfullerene_dust", 32284, 0x000000, "SHINY");
+util.registerDust("amorphous_graphite", 32285, 0x2f4f4f, "DULL");
+util.registerDust("uranus_nitriles", 32286, 0x4682b4, "SHINY");
+util.registerDust("uranus_hydrocarbon_dust", 32287, 0x5dadec, "DULL");
+util.registerDust("superionic_ice_crystal", 32288, 0xaddbe6, "SHINY");
+util.registerDust("sasteroid_enstatite_diamond_dust", 32289, 0x8a9a5b, "SHINY");
+util.registerDust("pluto_tholin_dust", 32290, 0x804000, "DULL");
+util.registerDust("cryotholin_crystal_dust_pluto", 32291, 0xffa500, "DULL");
+util.registerDust("impure_subsurface_clathrate", 32292, 0xffd700, "DULL");
+util.registerDust("tholin_ice_eris", 32293, 0xa0522d, "DULL");
+util.registerDust("deep_carbon_silicate", 32294, 0x704214, "SHINY");
+util.registerDust("haumean_quartz_ice", 32295, 0xf5f5f5, "SHINY");
+util.registerDust("haumean_silicate_icecrystal_dust", 32296, 0xb0c4de, "SHINY");
+util.registerDust("hydrocarbon_complex_mm", 32297, 0xe0ffff, "DULL");
+util.registerDust("volatile_ice_crystal_dust", 32298, 0xb0e0e6, "SHINY");
+util.registerDust("scattered_kbo_dust", 32299, 0x8a3324, "DULL");
+util.registerDust("ptn_dust", 32300, 0x7b3f00, "DULL");
+util.registerDust("ceresian_subsurface_ammonia_dust", 32301, 0xa1a8b6, "SHINY");
+util.registerDust("ancient_interstellar_core_dust", 32302, 0x2f4f4f, "SHINY");
+util.registerDust("sulfide_nodes_oc", 32303, 0x9c7c5d, "SHINY");
 
 
 
