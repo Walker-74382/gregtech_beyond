@@ -1217,6 +1217,16 @@ util.registerFluid("diluted_impure_naquahamericium_hydroxide", 0x684b4b);
 util.registerFluid("naquahamericium_hydroxide", 0x8f6161);
 util.registerFluid("superfluid_carbon_oxygen_mixture_plasma", 0xBDC0DB);
 util.registerFluid("1_butene", 0xB75B5B);
+util.registerFluid("deuterium_helium_impure", 0xD8A373);
+util.registerFluid("metallic_helium_impure", 0xB0C4DE);
+util.registerFluid("superionic_ice", 0xB9CFF0);
+util.registerFluid("diamond_impure", 0xBE99A3);
+util.registerFluid("helium4impure", 0xA7D7F9);
+util.registerFluid("chlorine_oxyfluoride", 0xD1E231);
+util.registerFluid("metallic_helium", 0xBCC6CC);
+util.registerFluid("methane_crushed_ice", 0x87CEEB);
+util.registerFluid("ammonia_crushed_ice", 0xF8F4E3);
+util.registerFluid("liquid_diamond", 0xA9CCE3);
 
 
 
