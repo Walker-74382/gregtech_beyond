@@ -831,6 +831,17 @@ var items = [
 "hot_silicon_ingot",
 "unbaked_monocrystalline_silicon_boule",
 "seared_gear",
+"satellite1_t1",
+"satellite1_t2",
+"satellite1_t3",
+"satellite1_t4",
+"satellite1_mars",
+"satellite1_jupiter",
+"satellite1_saturn",
+"satellite1_uranus",
+"satellite1_neptune",
+"satellite1_sol",
+"satellite1_venus",
 ] as string[];
 
 for item in items {
