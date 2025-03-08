@@ -2243,6 +2243,7 @@ tile.contenttweaker.geothermal_core_casing.name=Geothermal Core Casing
 tile.contenttweaker.core_drill_assembly.name=Core Drill Assembly
 tile.contenttweaker.core_treatment_casing.name=Core Treatment Casing
 tile.contenttweaker.interstellar_core.name=Interstellar Core
+tile.contenttweaker.extreme_titanium_alloy_casing.name=Extreme Titanium Alloy Casing
 recipemap.blender.name=Blending
 tile.contenttweaker.blade_assembly.name=Blade Assembly Block
 item.contenttweaker.etched_phenolic_board.name=Etched Phenolic Board

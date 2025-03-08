@@ -97,7 +97,7 @@ val ore_factory = Builder.start(loc, meta)
                         .maxFluidInputs(4)
                         .maxOutputs(1)
                         .build())
-.withTexture(ICubeRenderer.sided("contenttweaker:blocks/perciseelectronicunitcasing"))
+.withTexture(ICubeRenderer.sided("contenttweaker:blocks/ore_factory_casing"))
 .withZoom(0.5f)
 
 .buildAndRegister() as Multiblock;
