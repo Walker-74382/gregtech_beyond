@@ -335,6 +335,9 @@ nickeliferous_limonite.addFlags(["GENERATE_ORE"]);
 val hematite = MaterialRegistry.createDustMaterial(641,"hematite",0xACB2A4, "DULL",  2);
 hematite.addFlags(["GENERATE_ORE"]);
 
+val extreme_titanium_alloy = MetalRegistry.createIngotMaterial (642, "extreme_titanium_alloy", 0x6e6e75, "SHINY", 1);
+extreme_titanium_alloy.addFlags(["GENERATE_PLATE", "GENERATE_ROD", "GENERATE_FRAME"]); 
+
 
 util.registerDust("kaminskycatalyst", 32000, 0x372927, "DULL");
 util.registerDust("philipscatalyst", 32001, 0xB45D83, "DULL");
@@ -624,6 +627,8 @@ util.registerDust("ptn_dust", 32300, 0x7b3f00, "DULL");
 util.registerDust("ceresian_subsurface_ammonia_dust", 32301, 0xa1a8b6, "SHINY");
 util.registerDust("ancient_interstellar_core_dust", 32302, 0x2f4f4f, "SHINY");
 util.registerDust("sulfide_nodes_oc", 32303, 0x9c7c5d, "SHINY");
+util.registerDust("extreme_titanium_alloy_mix", 32304, 0x6e6e75, "SHINY");
+util.registerDust("rare_earth_mix", 32305, 0x888ba4, "SHINY");
 
 
 

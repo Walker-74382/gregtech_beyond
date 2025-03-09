@@ -3394,3 +3394,26 @@ recipes.addShaped(<gregtech:machine:1516>, [    [<ore:circuitMaster>, <ore:craft
 recipes.addShaped(<gregtech:machine:1409>, [    [<ore:plateRhodiumPlatedPalladium>, <gregtech:meta_item_1:32606>, <ore:plateRhodiumPlatedPalladium>], [<ore:cableGtQuadrupleNiobiumTitanium>, <gregtech:machine:506>, <ore:cableGtQuadrupleNiobiumTitanium>], [<ore:circuitMaster>, <ore:craftingGrinder>, <ore:circuitMaster>]]);
 
 recipes.addShaped(<gregtech:machine:1434>, [    [<ore:circuitSuperconductor>, <ore:plateNylon610>, <ore:circuitSuperconductor>], [<gregtech:meta_item_1:32697>, <gregtech:machine:508>, <gregtech:meta_item_1:32687>], [<ore:circuitSuperconductor>, <ore:plateNylon610>, <ore:circuitSuperconductor>]]);
+
+mixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2016>*3, <gregtech:meta_item_1:2041>*3, <gregtech:meta_item_1:2042>*2, <gregtech:meta_item_1:2049>)
+    .outputs(<gtadditions:ga_dust:32305>*6)
+    .duration(160)
+    .EUt(400)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:2072>*4, <gregtech:meta_item_1:2074>*2, <gregtech:meta_item_1:2044>, <gtadditions:ga_dust:32305>)
+    .outputs(<gtadditions:ga_dust:32304>*8)
+    .duration(200)
+    .EUt(800)
+    .buildAndRegister();
+
+ebf.recipeBuilder()
+    .inputs(<gtadditions:ga_dust:32304>)
+    .fluidInputs(<liquid:argon>*500)
+    .property("temperature", 3500)
+    .EUt(2400)
+    .duration(800)
+    .outputs(<gregtech:meta_item_1:10631>)
+    .buildAndRegister();

@@ -2388,3 +2388,5 @@ item.contenttweaker.satellite1_uranus=Launched Gas Collector Satellite (Uranus)
 item.contenttweaker.satellite1_neptune=Launched Gas Collector Satellite (Neptune)
 item.contenttweaker.satellite1_sol=Launched Gas Collector Satellite (Sol)
 item.contenttweaker.satellite1_venus=Launched Gas Collector Satellite (Venus)
+metaitem.extreme_titanium_alloy_mix.name=Extreme Titanium Alloy Mix
+metaitem.rare_earth_mix.name=Rare Earth Mix

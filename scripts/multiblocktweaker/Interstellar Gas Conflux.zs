@@ -64,7 +64,7 @@ val interstellar_gas_conflux = Builder.start(loc, meta)
                 .where("C", <metastate:contenttweaker:pressurized_atmospheric_casing>)
                 .where("L", MetaTileEntities.FLUID_IMPORT_HATCH[1], IFacing.south())
                 .where("X", MetaTileEntities.FLUID_EXPORT_HATCH[1], IFacing.north())
-                .where("E", MetaTileEntities.ENERGY_INPUT_HATCH[4], IFacing.east())
+                .where("E", MetaTileEntities.ENERGY_INPUT_HATCH[5], IFacing.east())
                 .build())
 .withRecipeMap(
         FactoryRecipeMap.start(loc)
