@@ -201,6 +201,7 @@ mixer.recipeBuilder()
 
 pyro.recipeBuilder()
 	.fluidInputs(<liquid:tetrafluoroethylene_mixture>*1000)
+	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 	.fluidOutputs(<liquid:tetrafluoroethylene>*1000)
 	.duration(400)
 	.EUt(200)
@@ -377,7 +378,7 @@ lcr.recipeBuilder()
 	.buildAndRegister();
 
 centrifuge.recipeBuilder()
-	.inputs(<liquid:fluorinated_benzimidazole_mixture>*1500)
+	.fluidInputs(<liquid:fluorinated_benzimidazole_mixture>*1500)
 	.fluidOutputs(<liquid:fluorinated_benzimidazole>*800, <liquid:phosphoric_acid>*500, <liquid:water>*200)
 	.duration(400)
 	.EUt(120)
